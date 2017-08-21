@@ -2,14 +2,19 @@
   "name": "faqapp",
   "version": "0.0.0",
   "license": "MIT",
+  "main": "app.js",
   "scripts": {
     "ng": "ng",
-    "start": "node Server.js",
+    "start": "ng server",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
 	"postinstall": "ng build --aot -prod"
+  },
+  "engines": {
+	"node": "~6.11.2",
+	"npm": "~4.2.0"
   },
   "private": true,
   "dependencies": {
